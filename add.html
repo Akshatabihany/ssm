@@ -1,86 +1,67 @@
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <title>Add Skills</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <title>SSM</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\styleadd.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Nanum+Myeongjo|Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\styles.css">
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <p class="navbar-brand">SSM</p>
-      </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li id="home"><a href="/">HOME</a></li>
-          <li id="about"><a href="/about">ABOUT US</a></li>
-          <li id="contact"><a href="/contact">CONTACT US</a></li>
-        </ul>
-    </div>
-  </nav>
-<body>
+  </head>
+  <body>
 
 
+<div class="main_container">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+  <div class="nav">
 
-
-  <section class="2">
-    <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5">
-          <div class="card-body">
-            <h5 class="card-title text-center">Sign In</h5>
-            <form class="form-signin">
-
-              <div class="form-label-group">
-                <label for="inputusername">Username</label>
-                <input type="email" id="Username" class="form-control" placeholder="Username" required autofocus>
-              </div>
-<br>
-              <div class="form-label-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-              </div>
-<br>
-              <div class="form-label-group">
-                <label for="inputcn">Contact No</label>
-                <input type="email" id="contact" class="form-control" placeholder="Contact" required autofocus>
-              </div>
-<br>
-              <div class="form-label-group">
-                <label for="inputPassword">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-              </div>
-              <br>
-              <button class="button" style="vertical-align:middle"><span>Register </span></button>
-
-              <hr class="my-4">
-
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
-
-</section>
-
-
-
-
-
-<a href="http://localhost:3000/">Login</a>
-
+  <a class="navbar-brand" href="http://localhost:3000/dashboard">Home</a>
+  <a class="navbar-brand" href="http://localhost:3000/skills">My Skills</a>
+  <a class="navbar-brand" href="http://localhost:3000/add">Add Skills</a>
+  <a class="navbar-brand" href="http://localhost:3000/search">Search</a>
+  <a class="navbar-brand" href="http://localhost:3000/logout">Logout</a>
+</nav>
+<div class="limiter">
+<div class="container-login100">
+<div class="wrap-login100 p-b-160 p-t-50">
+<form class="login100-form validate-form">
+<span class="login100-form-title p-b-43">
+Add Your Skill
+<br><br>
+</span>
+<br><br>
+<div class="wrap-input100 rs1 validate-input" data-validate="Username is required">
+<input class="input100" type="text" name="skill">
+<span class="label-input100">Skill</span>
 </div>
-<div class="footer-padding  position: fixed"></div>
-  <div class="footer">
-    <p>Made with ❤️</p>
-  </div>
+<div class="wrap-input100 rs2 validate-input" data-validate="Password is required">
+<input class="input100" type="" name="level">
+<span class="label-input100">Level</span>
 </div>
+<div class="container-login100-form-btn">
+<button class="login100-form-btn">
+<i class="fas fa-plus"></i><span> </span>| Add
+</button>
+</div>
+<div class="text-center w-full p-t-23">
+<a href="#" class="txt1">
+</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+
 </body>
 </html>
